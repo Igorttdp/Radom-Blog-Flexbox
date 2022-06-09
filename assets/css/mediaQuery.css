@@ -1,0 +1,52 @@
+@media (max-width: 64em) {
+    .container {
+        justify-content: center;
+        max-width: 80%;
+    }
+
+    .main-container {
+        min-width: 90%;
+    }
+
+    .main-container p {
+        text-align: justify;
+    }
+
+    .artigos {
+        width: 80%;
+    }
+
+    .artigos img {
+        width: 100%;
+    }
+
+    .aside-container {
+        width: auto;
+    }
+
+    .aside-container h3 {
+        margin-top: 10rem;
+        margin-bottom: 5rem;
+        width: 80%;
+    }
+
+    .mais-posts {
+        padding: 0;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .icons {
+        gap: 1.5rem;
+    }
+}
+
+@media (max-width: 40rem) {
+    .container {
+        max-width: 100%;
+    }
+
+    .footer-content {
+        padding: 15% 8%;
+    }
+}

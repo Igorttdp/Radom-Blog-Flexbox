@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    font-size: 10px;
+    --grey-1: #F5F5F5;
+    --grey-2: #343A40;
+    --grey-3: #0D0D0E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+a {
+    display: contents;
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    background-color: #fff;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0, 0.15);
+    text-align: center;
+    padding: 2rem;
+}
+
+img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto 3.6rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.main-container {
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.artigos-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2.4em;
+    row-gap: 5.5em;
+}
+
+.artigos {
+    width: 286px;
+}
+
+.artigos h2, p, a {
+    margin: 1.6rem 0;
+}
+
+.main-container h2 {
+    font-size: 1.6rem;
+    cursor: pointer;
+}
+
+.main-container p, a {
+    font-size: 1.2rem;
+}
+
+.topicos {
+    background-color: var(--grey-1);
+    display: inline-block;
+    padding: 2.5px 9px;
+    margin-right: 1rem;
+}
+
+.aside-container {
+    width: 30%;
+}
+
+.mais-posts {
+    padding-right: 6rem;
+}
+
+.aside-container h3 {
+    font-size: 1.8rem;
+    margin-bottom: 3.1rem;
+}
+
+.popular-posts h3 {
+    margin-top: 3.5rem;
+}
+
+.aside-container h4 {
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.aside-artigos {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 1.7rem;
+    margin: 2rem 0;
+}
+
+footer {
+    color: white;
+    background-color: var(--grey-3);
+}
+
+footer img {
+    border-radius: 0;
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5% 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons {
+    display: flex;
+    gap: 5.5rem;
+}
+
+#instagram-svg {
+    fill: #868687
+}
+
+#about-me {
+    color: #fff;
+    background-color: #161B22;
+    background-image: linear-gradient(#0D0D0E 5%, #161B22 100%);
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#about-me p {
+    font-size: 1.2rem;
+    color: rgb(139, 139, 139);
+}
+
+#center-flex {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+#profile-info {
+    flex-flow: column wrap !important;
+    text-align: center;
+}
+
+#profile-info h2 {
+    font-size: 3rem;
+    color: #ffa50a;
+    text-shadow: 0px 0px 20px;
+}
+
+#profile-info h2 span {
+    color: #0077B7;
+    text-shadow: 0px 0px 20px;
+}
+
+
+#profile-info, #social-medias {
+    max-width: 1200px;
+    margin: 2rem auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#profile-info img {
+    cursor:auto;
+}
+
+#github, #linkedin, #instagram {
+    width: 6rem;
+    cursor: pointer;
+    transition: all .3s;
+}
+
+#github:hover, #linkedin:hover, #instagram:hover {
+    transform: scale(1.1);
+}
