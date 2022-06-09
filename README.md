@@ -2,8 +2,8 @@
 
 <h2>Preview<h2>
 <div>
-    <img src="assets/img/preview1.png" width="200px"/>
-    <img src="assets/img/preview1.png" width="200px"/>
+    <img src="assets/img/preview1.png" width="350px"/>
+    <img src="assets/img/preview2.png" width="350px"/>
 </div>
 
 <h3>Sobre</h3>
